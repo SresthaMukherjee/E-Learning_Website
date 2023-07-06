@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <form name="frmLogin" method="POST" action="http://localhost:8080/Final_Project/Sessserve">
+    <div class="outerContainer">
+            <h2>Log In</h2>
+            <div class="Container">
+                <input type="text" placeholder="Enter Username" name="tbuname" required>
+                <input type="password" placeholder="Enter Password" name="tbpassword" required>
+                <button type="submit" id="login-btn">Log In</button>
+                
+                <a href="http://localhost:8080/Final_Project/FrontEnd/ValidateEmail.html" id="forgot-psw">Forgotten Password?</a>
+            </div>
+            <div class="member">
+                Not a user? <a href="Register.html">Register Now</a>
+            </div>
+                
+            <div class="admin">
+                <a href="adminlogin.jsp">Admin Log In</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

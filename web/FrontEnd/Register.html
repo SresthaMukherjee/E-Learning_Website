@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/Regicss.css">
+</head>
+<body>
+    <form name="frmRegister" method="POST" action="http://localhost:8080/Final_Project/Registration" >
+    <div class="container">
+        
+            <h2>Registration</h2>
+            <div class="content">
+                <div class="input_box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="tbname" required>
+                </div>
+
+                <div class="input_box">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter Username" name="tbuname" required>
+                </div>
+
+                <div class="input_box">
+                    <label for="email">E-Mail</label>
+                    <input type="email" placeholder="Enter your valid email address" name="tbemail" required>
+                </div>
+
+                <div class="input_box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Enter your mobile number" name="tbphoneno" required>
+                </div>
+
+                <div class="input_box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" name="tbpassword" required>
+                </div>
+
+                <div class="input_box">
+                    <label for="Cpassword">Confirm Password</label>
+                    <input type="password" placeholder="Confirm password" name="tbconfirmPassword" required>
+                </div>
+                
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                   <input type="radio" name="rbgender" id="male" value="M">
+                    <label for="gender">Male</label>
+
+                    <input type="radio" name="rbgender" id="female" value="F">
+                    <label for="gender">Female</label>
+
+                    <input type="radio" name="rbgender" id="other" value="O">
+                    <label for="gender">Other</label>
+                </div>
+            </div>
+
+            <div class="alert">
+                <input name="check" type="checkbox" class="form-check-input" id="check" required>
+                <p>By Clicking Register you agree to our Terms and Condition and Privacy Policy</p>
+            </div>
+                
+            <div class="button-container">
+                <button id="submit-btn" type="submit">Register</button>
+            </div>
+            <div>
+                Already a member?<a href="Login.html">Login Now</a> 
+            </div>
+    </form>
+</body>
+</html>

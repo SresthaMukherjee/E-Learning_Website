@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="home.html"><h3>Edura</h3></a>
+            <ul class="nav_menu">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="SignOut.html">LOG OUT</a></li>
+            </ul>
+            <button id="open_menu"><i class="uil uil-bars"></i></button>
+            <button id="close_menu"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="contact_aside">
+                <div class="aside_img">
+                    <img src="Images/contactus.jpg">
+                </div>
+                <h2>Contact Us</h2>
+                <p>
+                    Contacting us is simple. You can reach out to our dedicated support team through our website's contact form or email. 
+                </p>
+                <ul class="contact-details">
+                    <li>
+                        <i class="uil uil-phone-alt"></i>
+                        <h5>033-2655-9856</h5>
+                    </li>
+                    <li>
+                        <i class="uil uil-envelope-alt"></i>
+                        <h5>edurabestlearning@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="uil uil-map-marker"></i>
+                        <h5>EE Block, Sector-V, Newtown</h5>
+                    </li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href="https://facebook.com"><i class="uil uil-facebook-f"></i></a></li>
+                    <li><a href="https://instagram.com"><i class="uil uil-instagram"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="uil uil-twitter-alt"></i></a></li>
+                    <li><a href="https://linkedin.com"><i class="uil uil-linkedin-alt"></i></a></li>
+                    
+                </ul>
+            </aside>
+
+
+            <form class="contact_form" action="https://formspree.io/f/xrgvdryg" method="POST">
+                <div class="form_name">
+                    <input type="text" name="First Name" placeholder="First name" required>
+                    <input type="text" name="Last Name" placeholder="Last name" required>
+                </div>
+                <input type="email" name="E-mail Address" placeholder="Your valid Email Address" required>
+                <textarea name="message" placeholder="Type your message" rows="7" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="home.html" class="footer_logo"><h4>EDURA</h4></a>
+                <p>
+                    Flexibility is a key feature of our eLearning platform. Learners can access courses at their own pace and convenience, allowing them to fit their studies into their busy schedules. Whether it's early morning or late at night,
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Quick Links</h4>
+                    <ul class="permalinks">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>033-2655-9856</p>
+                    <p>edurabestlearning@gmail.com</p>
+                </div>
+                <ul class="social_media">
+                    <li>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="./total.js"></script>
+
+   
+</body>
+</html>
